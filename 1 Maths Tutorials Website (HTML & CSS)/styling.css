@@ -1,0 +1,52 @@
+#container{
+    width: 1150px;
+    border: 1px solid grey;
+    /* height:100px; */
+    margin: 0 auto;
+}
+#header {
+    height:100px;
+    padding:10px 0;
+}
+#brand {
+    float:left;
+}
+h1 a{
+    font-size: 50px;
+    font-weight: 100;
+    color: #861BBF;
+    text-decoration: none;
+}
+
+#searchbox {
+    float:right;
+    background: linear-gradient(#E4F289, #B7E953);
+    width: 400px;
+    height: 50px;
+    padding:20px 20px 0px 20px;
+    margin-top:20px;
+    
+}
+.text {
+    float: left;
+    width: 200px;
+    padding: 5px;
+    font-size: 15px;
+    color: rgb(255, 166, 0);
+
+    border-color:orange;
+    background:white url(/images/search.png) right center no-repeat;
+
+}
+.submit {
+    float: right;
+    padding: 5px;
+    font-weight: bold;
+    color:white;
+    background: #861BBF;
+    font-size: 15px;
+}
+
+.clear{
+    clear:both;
+}
