@@ -1,0 +1,66 @@
+
+#clockContainer{
+    position:relative;
+    margin:auto;
+    height:40vw;
+    width:40vw;
+    background:url("/6.Analog Watch/clock.png") no-repeat;
+    background-size:100%;
+    cursor: pointer;
+}
+
+#hour, #minute, #second{
+    position:absolute;
+    background:black;
+    border-radius:10px;
+    transform-origin:bottom;
+
+}
+
+#hour {
+
+    width: 1.8%;
+    height: 19%;
+    top: 20%;
+    left: 49.7%;
+    /* display: none; */
+}
+
+#minute{
+    width: 1.5%;
+    height: 26%;
+    top: 13%;
+    left: 49.8%;
+    /* display:none; */
+    
+}
+
+#second{
+    width: 1%;
+    height: 30%;
+    top: 9%;
+    left: 50%;
+    /* display: none; */
+}
+
+#digital{
+    position:relative;
+    background-color:rgba(0, 0, 0, 0.642);
+    height: 5vw;
+    width:20vw;
+    margin:auto;
+    display:flex;
+    border-radius:12px;
+    cursor: pointer;
+    
+}
+#hr, #min, #sec{
+    position:relative;
+    top:2%;
+    left:5%;
+    font-size:4vw;
+    margin:auto;
+    width:40vw;
+    height:8vw;
+    color:white;
+}

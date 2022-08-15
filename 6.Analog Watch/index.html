@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analog Clock - using pure JS</title>
+    <link rel="stylesheet" href="/6.Analog Watch/style.css">
+</head>
+<body>
+    <div id="clockContainer">
+        <div id="second"></div>
+        <div id="minute"></div>
+        <div id="hour"></div>
+    </div>
+    <div id="digital">
+        <span id="hr">00</span>
+        <span id="min">00</span>
+        <span id="sec">00</span>
+    </div>
+    <script src="/6.Analog Watch/script.js"></script>
+</body>
+</html>
+
+
+<!-- for h hour = (30*h + m/2)deg -->
+<!-- for m minute = (6m+ s/10)deg -->
+<!-- for s second = (6s) deg-->
